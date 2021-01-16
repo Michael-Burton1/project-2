@@ -4,5 +4,5 @@ $(document).ready(function(){
   const quest3Ans=$("#quest3").val();
   const quest4Ans=$("#quest4").val();
   const quest5Ans=$("#quest5").val();
-
-}
+  alert(quest5Ans) 
+});
