@@ -13,52 +13,57 @@
 </head>
 <body>
   <div class="container">
-    <div class="survey">
-      <h1>Which  coding language is right for you?</h1>
-      <p>Choosing the right computer language to suit your personal interests is very important. Take some time to go through our survey to help decide which one is right for you.</p>
-      <h2>A couple of questions to get to know you a little better:</h2>
-      <p>What time of day do you enjoy the most:</p>
-      <select class="form-control" id="quest1">
-        <option> -- </option>
-        <option>Morning</option>
-        <option>Afternoon</option>
-        <option>Evening</option>
-        <option>Late night</option>
-      </select>
-      <p>When thinking about coding you feel like:</p>
-      <select class="form-control" id="quest2">
-        <option> -- </option>
-        <option>rolling up your sleeves and getting to work!</option>
-        <option>taking a momment to gather your thoughts before jumping in.  </option>
-        <option>procrastinating. (I'll get around to the project eventually.)</option>
-        <option>having a good ole' fashon cry in the shower. (while maybe eating a snack, like a bananna.) </option>
-      </select>
-      <p>Did you see where I put my sandwhich?</p>
-      <select class="form-control" id="quest3">
-        <option> -- </option>
-        <option>No, I'm sorry. I wasn't watching. </option>
-        <option>Ummmmmm..... What?</option>
-        <option>Hey stop crying, we can find it together!</option>
-        <option>Dude! I saw you eat it!</option>
-      </select>
-      <p>I'm being serious now, this isnt part of the survey. Did you take my sandwhich?</p>
-      <select class="form-control" id="quest4">
-        <option> -- </option>
-        <option>No way my guy! I would never.</option>
-        <option>I told you, you ate the thing!</option>
-        <option>Listen, would I be helping you look if I took it? (but secretly you DID take it.)</option>
-        <option>Yeah I ate that sandwhich. I did it on purpose too!</option>
-      </select>
-      <p>Whatever. Finally, what computer language do you want to learn?</p>
-      <select class="form-control" id="quest5">
-        <option value="5">--</option>
-        <option value="1">JavaScript</option>
-        <option value="2">Ruby</option>
-        <option value="3">C#</option>
-        <option value="4">I don't know. That's why I'm taking your dumb survey.</option>
-        <option value="5">None, I just want to sing.</option>
-        <button type="submit" class="btn">Show my Results!</button>
-      </select>
+    <form id="form1">
+      
+      
+      
+      <div class="survey">
+        <h1>Which  coding language is right for you?</h1>
+        <p>Choosing the right computer language to suit your personal interests is very important. Take some time to go through our survey to help decide which one is right for you.</p>
+        <h2>A couple of questions to get to know you a little better:</h2>
+        <p>What time of day do you enjoy the most:</p>
+        <select class="form-control" id="quest1">
+          <option> -- </option>
+          <option>Morning</option>
+          <option>Afternoon</option>
+          <option>Evening</option>
+          <option>Late night</option>
+        </select>
+        <p>When thinking about coding you feel like:</p>
+        <select class="form-control" id="quest2">
+          <option> -- </option>
+          <option>rolling up your sleeves and getting to work!</option>
+          <option>taking a momment to gather your thoughts before jumping in.  </option>
+          <option>procrastinating. (I'll get around to the project eventually.)</option>
+          <option>having a good ole' fashon cry in the shower. (while maybe eating a snack, like a bananna.) </option>
+        </select>
+        <p>Did you see where I put my sandwhich?</p>
+        <select class="form-control" id="quest3">
+          <option> -- </option>
+          <option>No, I'm sorry. I wasn't watching. </option>
+          <option>Ummmmmm..... What?</option>
+          <option>Hey stop crying, we can find it together!</option>
+          <option>Dude! I saw you eat it!</option>
+        </select>
+        <p>I'm being serious now, this isnt part of the survey. Did you take my sandwhich?</p>
+        <select class="form-control" id="quest4">
+          <option> -- </option>
+          <option>No way my guy! I would never.</option>
+          <option>I told you, you ate the thing!</option>
+          <option>Listen, would I be helping you look if I took it? (but secretly you DID take it.)</option>
+          <option>Yeah I ate that sandwhich. I did it on purpose too!</option>
+        </select>
+        <p>Whatever. Finally, what computer language do you want to learn?</p>
+        <select class="form-control" id="quest5">
+          <option value="6">--</option>
+          <option value="1">JavaScript</option>
+          <option value="2">Ruby</option>
+          <option value="3">C#</option>
+          <option value="4">I don't know. That's why I'm taking your dumb survey.</option>
+          <option value="5">None, I just want to sing.</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Show my Results!</button>
+      </form>
     </div>
     <div class="results">
       <!-- javascript-->
@@ -70,15 +75,15 @@
 
       <!-- Ruby -->
       <div class="rubyResult">
-        <h1>Congradulations!</h1>
+        <h1>Congratulations!</h1>
         <img  class="logo1" src="img/ruby logo.jpg" alt="Ruby logo">
-        <p>It seems like Ruby is the right language for you1</p>
+        <p>It seems like Ruby is the right language for you!</p>
       </div>
       <!-- C# -->
       <div class="cResult">
-        <h1>Congradulations!</h1>
+        <h1>Congratulations!</h1>
         <img  class="logo1" src="img/clogo.png" alt="c# logo">
-        <p>It seems like c# is the right language for you1</p>
+        <p>It seems like c# is the right language for you!</p>
       </div>
       <!-- Idont know -->
       <div class="confussedResult">
@@ -88,11 +93,13 @@
       </div>
       <!-- follow yer dreams -->
       <div class="danceResult">
-        <h1>Oh No!</h1>
+        <h1>Why are you even here?</h1>
         <img  class="logo1" src="img/billy.jpg" alt="Billy Elliot">
         <p>Your results are in and it seems to us that you should follow your dreams just like ol' Billy Elliot here. Dispite all odds he was able to shake shake shake shake shake shake shake shake it off when the haters came to hate hate hate hate hate, and the players came to play play play play play.  </p>
       </div>
     </div>
   </div>
+
+  
 </body>
 </html>
