@@ -1,8 +1,17 @@
 /* blocks */
-
-
+body{
+ background-color: rgb(242, 242, 233);
+}
+img{
+  float:left;
+}
 
 /* Classes */
+
+.headimg{
+  float:none
+  
+}
 
  .javaScriptResult{  
   display:none; 
@@ -25,6 +34,11 @@
 
 /* IDs */
 .logo1{
-  width: 20%;
+  width: 50%;
   height: auto;
+}
+
+#open{
+  font-size: 24px;
+  
 }
