@@ -4,7 +4,24 @@
 
 /* Classes */
 
+.javaScriptResult{ 
+  display:none; 
+} 
+.rubyResult{ 
+  display:none; 
+} 
 
+.cResult{ 
+  display:none; 
+} 
+
+.confussedResult{ 
+  display:none; 
+} 
+
+.danceResult{ 
+  display:none; 
+} 
 
 /* IDs */
 .logo1{
