@@ -3,7 +3,7 @@ body{
  background-color: rgb(242, 242, 233);
 }
 img{
-  float:left;
+  /* float:left; */
 }
 
 /* Classes */
@@ -32,12 +32,16 @@ img{
   display:none; 
 } 
 
+
 /* IDs */
 .logo1{
   width: 50%;
   height: auto;
 }
 
+.pResult{
+font-size:25px;
+}
 #open{
   font-size: 24px;
   
