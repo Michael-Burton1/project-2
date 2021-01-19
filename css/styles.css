@@ -2,15 +2,12 @@
 body{
  background-color: rgb(242, 242, 233);
 }
-img{
-  /* float:left; */
-}
+
 
 /* Classes */
 
 .headimg{
-  float:none
-  
+  float:none  
 }
 
  .javaScriptResult{  
@@ -33,16 +30,17 @@ img{
 } 
 
 
-/* IDs */
 .logo1{
   width: 50%;
   height: auto;
 }
 
 .pResult{
-font-size:25px;
+  font-size:25px;
 }
+
+
+/* IDs */
 #open{
   font-size: 24px;
-  
 }
