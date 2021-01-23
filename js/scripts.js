@@ -2,7 +2,6 @@ $(document).ready(function(){
   $("#form1").submit(function(e){
     e.preventDefault();
     const quest5Ans=parseInt($("#quest5").val());
-    console.log($("#quest5").val())
     
     if(quest5Ans===1){
       $('.javaScriptResult').show();
@@ -17,7 +16,8 @@ $(document).ready(function(){
       $('.confussedResult').show();
       $(".survey").slideUp();
     }else {
-      $('.danceResult').show();$(".survey").slideUp();
+      $('.danceResult').show();
+      $(".survey").slideUp();
     }
     
   });
@@ -25,39 +25,30 @@ $(document).ready(function(){
     $(".survey").slideDown();
     $('.javaScriptResult').hide();
     $("#redo").click();
-    console.log("button clicked");    
   });
 
   $("#again2").click(function(){ 
     $(".survey").slideDown();
     $('.rubyResult').hide();
     $("#redo").click();
-    console.log("button clicked");    
   });
   
   $("#again3").click(function(){ 
     $(".survey").slideDown();
     $('.cResult').hide();
     $("#redo").click();
-    console.log("button clicked");    
   });
   
   $("#again4").click(function(){ 
     $(".survey").slideDown();
     $('.confussedResult').hide();
     $("#redo").click();
-    console.log("button clicked");    
   });
 
   $("#again5").click(function(){ 
     $(".survey").slideDown();
     $('.danceResult').hide();
     $("#redo").click();
-    console.log("button clicked");    
   });
-  
-  
-    
-  
 
 });

@@ -3,43 +3,32 @@ body{
  background-color: rgb(242, 242, 233);
 }
 
-
 /* Classes */
-
 .headimg{
   float:none  
 }
-
  .javaScriptResult{  
   display:none; 
 }  
 .rubyResult{ 
   display:none; 
 } 
-
 .cResult{ 
   display:none; 
 } 
-
 .confussedResult{ 
   display:none; 
 } 
-
 .danceResult{ 
   display:none; 
 } 
-
-
 .logo1{
   width: 50%;
   height: auto;
 }
-
 .pResult{
   font-size:25px;
 }
-
-
 /* IDs */
 #open{
   font-size: 24px;
