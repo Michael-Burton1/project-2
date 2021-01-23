@@ -6,7 +6,7 @@ $(document).ready(function(){
     
     if(quest5Ans===1){
       $('.javaScriptResult').show();
-      // $(".survey").slideUp();
+      $(".survey").slideUp();
     }else if (quest5Ans===2){
       $('.rubyResult').show();
       $(".survey").slideUp();
@@ -16,20 +16,45 @@ $(document).ready(function(){
     }else if (quest5Ans===4){
       $('.confussedResult').show();
       $(".survey").slideUp();
-    }else if (quest5Ans===5){
+    }else {
       $('.danceResult').show();$(".survey").slideUp();
     }
     
   });
-  $("#again").click(function(){ 
-    alert("button clicked");
-    // $("StartAgain").function('.javaScriptResult'){
-    //   $(".survey").slideDown();
-    //   $('.javaScriptResult').hide();
-    // }
+  $("#again1").click(function(){ 
+    $(".survey").slideDown();
+    $('.javaScriptResult').hide();
+    $("#redo").click();
+    console.log("button clicked");    
+  });
+
+  $("#again2").click(function(){ 
+    $(".survey").slideDown();
+    $('.rubyResult').hide();
+    $("#redo").click();
+    console.log("button clicked");    
   });
   
+  $("#again3").click(function(){ 
+    $(".survey").slideDown();
+    $('.cResult').hide();
+    $("#redo").click();
+    console.log("button clicked");    
+  });
   
+  $("#again4").click(function(){ 
+    $(".survey").slideDown();
+    $('.confussedResult').hide();
+    $("#redo").click();
+    console.log("button clicked");    
+  });
+
+  $("#again5").click(function(){ 
+    $(".survey").slideDown();
+    $('.danceResult').hide();
+    $("#redo").click();
+    console.log("button clicked");    
+  });
   
   
     

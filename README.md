@@ -28,7 +28,7 @@ _This is the webpage that provides people who dont quite know what computer lang
 *_no know bugs_
 
 
-## Licencing
+## Licensing
 
 _Licensed under the [MIT License](LICENSE)._
 
