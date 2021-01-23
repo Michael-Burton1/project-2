@@ -30,8 +30,10 @@ _This is the webpage that provides people who dont quite know what computer lang
 
 ## Licencing
 
-_MIT_
+_Licensed under the [MIT License](LICENSE)._
+
 
 ## Contact Information
 
 _Michael Burton (micbur1@gmail.com)_
+
