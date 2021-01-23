@@ -7,21 +7,10 @@ body{
 .headimg{
   float:none  
 }
- .javaScriptResult{  
+ .javaScriptResult, .rubyResult, .cResult, .confussedResult, .danceResult{  
   display:none; 
 }  
-.rubyResult{ 
-  display:none; 
-} 
-.cResult{ 
-  display:none; 
-} 
-.confussedResult{ 
-  display:none; 
-} 
-.danceResult{ 
-  display:none; 
-} 
+
 .logo1{
   width: 50%;
   height: auto;
