@@ -23,6 +23,12 @@ _This is the webpage that provides people who dont quite know what computer lang
 * git clone https://github.com/Michael-Burton1/project-2.git
 * code .
 
+### To view project in browser you can:
+
+* right click the index.htnl file and open in live browser.  
+OR  
+* copy and paste this URL into your browser:  https://michael-burton1.github.io/project-2/
+
 ## Known Bugs
 
 *_no know bugs_
