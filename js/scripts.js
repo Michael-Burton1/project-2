@@ -6,7 +6,7 @@ $(document).ready(function(){
     
     if(quest5Ans===1){
       $('.javaScriptResult').show();
-      $(".survey").slideUp();
+      // $(".survey").slideUp();
     }else if (quest5Ans===2){
       $('.rubyResult').show();
       $(".survey").slideUp();
@@ -20,7 +20,18 @@ $(document).ready(function(){
       $('.danceResult').show();$(".survey").slideUp();
     }
     
-    });
+  });
+  $("#again").click(function(){ 
+    alert("button clicked");
+    // $("StartAgain").function('.javaScriptResult'){
+    //   $(".survey").slideDown();
+    //   $('.javaScriptResult').hide();
+    // }
+  });
+  
+  
+  
+  
     
   
 
